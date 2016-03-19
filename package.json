@@ -1,0 +1,28 @@
+{
+  "name": "urlshortener-api",
+  "version": "1.0.0",
+  "description": "### User stories: ##A",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanonid/urlshortener-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xanonid/urlshortener-api/issues"
+  },
+  "homepage": "https://github.com/xanonid/urlshortener-api#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "googleapis": "^3.1.0",
+    "mongoose": "^4.4.6",
+    "mongoose-auto-increment": "^5.0.1",
+    "renderme": "^0.1.0"
+  }
+}
